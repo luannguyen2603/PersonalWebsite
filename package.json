@@ -12,10 +12,11 @@
 		"react-reveal": "^1.2.2",
 		"react-scripts": "^3.3.0",
 		"react-scroll": "^1.7.15",
+		"serve": "^11.3.0",
 		"styled-components": "^4.4.1"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "serve -s build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
